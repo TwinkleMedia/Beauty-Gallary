@@ -36,7 +36,7 @@ padding-block: 5px !important;
 
 /* --------------------------Navbar------------------- */
 .navbar {
-    background-color: #333;
+    background-color: #F8F9FA;
 }
 
 
@@ -47,7 +47,7 @@ padding-block: 5px !important;
   height: 80px;
 }
 .nav-link {
-    color: white;
+    color: black !important;
 }
 
 .nav-link:hover {
@@ -55,7 +55,7 @@ padding-block: 5px !important;
 }
 
 .social-icons a {
-    color: white;
+    color: black;
     margin-left: 1rem;
     font-size: 1.2rem;
 }
@@ -319,3 +319,33 @@ padding-block: 5px !important;
   transform: scale(1.05);
 }
 
+
+/* -------------------Bridal Offer Page -------------------------- */
+
+.offer-header {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+.offer-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.offer-table {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.table th {
+  background-color: #ff758c;
+  color: white;
+}
+.btn-custom {
+  background-color: #ff7eb3;
+  border: none;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #ff5672;
+}
