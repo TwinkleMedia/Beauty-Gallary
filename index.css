@@ -64,6 +64,20 @@ padding-block: 5px !important;
     color: #00bcd4;
 }
 
+.custom-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #000 !important;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="black" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* .navbar-dark .navbar-toggler {
+  color: #000 !important;
+  border-color: rgba(255, 255, 255, .1);
+} */
 /* -------------End -----------Navbar--------------- */
 
 
@@ -348,4 +362,92 @@ padding-block: 5px !important;
 }
 .btn-custom:hover {
   background-color: #ff5672;
+}
+
+
+
+
+/* ----------------------Contact Us ------------------ */
+.contact-header {
+  background-color: #343a40;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+.form-section {
+  padding: 3rem 0;
+}
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Aspect Ratio */
+}
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.btn-custom {
+  background-color: #343a40;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #495057;
+}
+
+
+
+
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebc59;
+  cursor: pointer;
+}
+
+.whatsapp-btn img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+.map-container {
+  width: 100%;
+  max-width: 420px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
